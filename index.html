@@ -310,6 +310,16 @@
     .floating-cta { bottom: 16px; right: 16px; font-size: 11px; padding: 12px 18px; }
   }
 </style>
+<!-- MailerLite Universal -->
+<script>
+(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+.push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+ml('account', '2212311');
+</script>
+<!-- End MailerLite Universal -->
+
 </head>
 <body>
 
@@ -332,7 +342,7 @@
     <h1>Transforme<br>ton corps<br><em>en 90 jours.</em></h1>
     <p class="hero-sub">Un coaching en ligne simple, progressif et humain — conçu pour n'importe qui cherchant des résultats durables. Depuis l'île Maurice, pour le monde entier.</p>
     <div class="hero-btns">
-      <a href="#" class="btn-primary" onclick="openLead(event)">🎁 Plan gratuit 7 jours</a>
+      <a href="javascript:void(0)" class="btn-primary" onclick="ml('show', 'XhZ0vb', true)">🎁 Plan gratuit 7 jours</a>
       <a href="#programs" class="btn-secondary">Voir les programmes</a>
     </div>
   </div>
@@ -587,7 +597,7 @@
       <span class="contact-card-icon">🎁</span>
       <div class="contact-card-title">Plan Gratuit 7 Jours</div>
       <div class="contact-card-desc">Commence sans risque. Reçois ton premier programme directement par email.</div>
-      <button class="btn-contact" onclick="openLead(event)">Télécharger gratuitement</button>
+      <button class="btn-contact" onclick="ml('show', 'XhZ0vb', true)">Télécharger gratuitement</button>
     </div>
     <div class="contact-card">
       <span class="contact-card-icon">💬</span>
@@ -622,7 +632,7 @@
   </div>
 </footer>
 
-<a href="#" class="floating-cta" onclick="openLead(event)">🎁 Plan gratuit 7 jours</a>
+<a href="javascript:void(0)" class="floating-cta" onclick="ml('show', 'XhZ0vb', true)">🎁 Plan gratuit 7 jours</a>
 
 <!-- MODAL PROGRAMME -->
 <div class="modal-overlay" id="programModal" onclick="closeModal(event)">
@@ -657,7 +667,7 @@
   </div>
 </div>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 const programs = {
   starter: {
     title: 'Island Body Starter — 30 jours',
